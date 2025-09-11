@@ -37,4 +37,4 @@ vim.lsp.enable(
 	}
 )
 
-
+require("autocmd")

@@ -8,4 +8,5 @@ return {
 	{ "lewis6991/gitsigns.nvim" },
 	{ "mbbill/undotree" },
 	"folke/which-key.nvim",
+	"tpope/vim-sleuth",
 }

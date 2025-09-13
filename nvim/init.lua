@@ -1,5 +1,6 @@
 require("config.opt")
 require("config.lazy")
+require("commands")
 
 require "vague".setup({ transparent = true })
 vim.cmd("colorscheme vague")
@@ -14,9 +15,10 @@ map({ 'n', 'v' }, '<leader>o', ':update<CR> :source<CR>')
 
 require("mini.icons").setup({ style = 'ascii' })
 require("mini.pick").setup()
-map('n', '<leader>f', ":Pick files<CR>")
-map('n', '<leader>g', ":Pick grep_live<CR>")
-map('n', '<leader>t', ":Pick git_files<CR>")
+map('n', '<leader>sf', ":Pick files<CR>")
+map('n', '<leader>sg', ":Pick grep_live<CR>")
+map('n', '<leader>st', ":Pick git_files<CR>")
+map('n', '<leader>c', ":Config<CR>")
 
 require('mini.completion').setup()
 map('n', '<leader>lf', vim.lsp.buf.format)

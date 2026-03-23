@@ -9,4 +9,5 @@ return {
 	{ "mbbill/undotree" },
 	"folke/which-key.nvim",
 	"tpope/vim-sleuth",
+	{"mfussenegger/nvim-jdtls"}
 }

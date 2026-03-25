@@ -7,7 +7,8 @@ return {
 	{ "nvim-mini/mini.nvim",            version = false },
 	{ "lewis6991/gitsigns.nvim" },
 	{ "mbbill/undotree" },
-	"folke/which-key.nvim",
-	"tpope/vim-sleuth",
-	{"mfussenegger/nvim-jdtls"}
+	{ "folke/which-key.nvim" },
+	{ "tpope/vim-sleuth" },
+	{"mfussenegger/nvim-jdtls"},
+	{dir = "~/Projects/compile-mode.nvim"}
 }

@@ -12,3 +12,9 @@ style = "Bold"
 [font.italic]
 family = "Iosevka Nerd Font Mono"
 style = "Italic"
+
+[keyboard]
+bindings = [
+  { key = "Return", mods = "Control|Shift", action = "SpawnNewInstance" },
+  { key = "Return", mods = "Shift", chars = "\u001B\r"}
+]

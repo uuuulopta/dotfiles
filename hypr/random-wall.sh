@@ -9,6 +9,7 @@ ln -sf "$WALLPAPER" "$WALL_LOC"
 
 if ! pgrep -x hyprpaper > /dev/null; then
     hyprpaper &
+    sleep 0.2
 fi
 
 hyprctl hyprpaper wallpaper "HDMI-A-1,$WALLPAPER"

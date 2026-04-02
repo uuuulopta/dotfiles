@@ -1,5 +1,5 @@
 return {
-	dir = "~/Projects/compile-mode.nvim",
+	"ej-shafran/compile-mode.nvim",
 	dependencies = {
 		"nvim-lua/plenary.nvim",
 	},

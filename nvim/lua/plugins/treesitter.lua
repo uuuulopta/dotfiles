@@ -1,15 +1,6 @@
 return {
 	"nvim-treesitter/nvim-treesitter",
-	branch = 'master',
+	branch = 'main',
 	lazy = false,
-	build = ":TSUpdate",
-	config = function()
-		local config = require("nvim-treesitter.configs")
-		config.setup({
-			auto_install = true,
-			ensure_installed = { "markdown", "java", "c", "elixir", "lua" },
-			highlight = { enable = true },
-			indent = { enable = true }
-		})
-	end
+	build = ":TSUpdate"
 }

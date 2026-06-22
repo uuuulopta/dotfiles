@@ -25,6 +25,8 @@ map('t', '<Esc>', [[<C-\><C-n>]], { noremap = true, silent = true })
 
 require('mini.completion').setup()
 map('n', '<leader>lf', vim.lsp.buf.format)
+map('n', 'grd', vim.lsp.buf.definition)
+map('n', 'grD', vim.lsp.buf.declaration)
 
 require('mini.align').setup()
 require('mini.surround').setup()
